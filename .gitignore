@@ -1,0 +1,16 @@
+# Root .gitignore for repository
+
+# Ignore server environment files containing secrets
+server/.env
+
+# Node dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# Vite cache
+.vite/
