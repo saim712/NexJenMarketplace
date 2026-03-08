@@ -1,7 +1,8 @@
 # Root .gitignore for repository
 
-# Ignore server environment files containing secrets
+# Ignore server and client environment files containing secrets
 server/.env
+client/.env
 
 # Node dependencies
 node_modules/
